@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+
+    <key>Label</key>
+    <string>nytHeadlines</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StartInterval</key>
+    <integer>10</integer>
+
+    <key>StandardErrorPath</key>
+    <string>error.txt</string>
+
+    <key>StandardOutPath</key>
+    <string>out.txt</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/eab06/Desktop/WJB/PythonProjects/NYT headlines</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/bin/python3.8</string>
+      <string>script.py</string>
+    </array>
+
+  </dict>
+</plist>
